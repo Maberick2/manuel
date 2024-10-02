@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: makalister2/clockbox:latest
+          tags: makalister2/clockboxci:latest
