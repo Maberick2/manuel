@@ -23,5 +23,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ vars.makalister2 }}/laal:latest
+          tags: makalister2/laal:latest
           
