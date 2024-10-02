@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build . -t makalister2/clockboxci:latest
+        run: docker build . -t Roberto Ramírez/clockboxci:latest
 
       - name: Push Docker image
-        run: docker push makalister2/clockboxci:latest
+        run: docker push Roberto Ramírez/clockboxci:latest
