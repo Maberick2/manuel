@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: makalister2/manue:latest
+          tags: makalister2/manuel:latest
